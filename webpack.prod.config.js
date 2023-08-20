@@ -1,5 +1,5 @@
 // for extracting out css in separate Css file during build process
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // for generating html template with style & JS links during build
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 // for cleaning up dist folder every time web runs the build 
