@@ -27,13 +27,6 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new HTMLWebpackPlugin({
-            template: './index.html'
-        }),
-        // cleaning webpack plugin to clear the dist folder during each build
-        new CleanWebpackPlugin(),
-    ],
     resolve: {
         alias: {
             src: path.resolve(__dirname, 'src'),
